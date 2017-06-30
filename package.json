@@ -4,7 +4,7 @@
   "description": "Solution to /r/dailyprogrammer Hard Challenge #320",
   "main": "path_to_philosophy.js",
   "scripts": {
-    "test": "node path_to_philosophy.js"
+    "start": "node path_to_philosophy.js"
   },
   "repository": {
     "type": "git",

@@ -4,6 +4,71 @@ Implementation of the [Hard Challenge #320 "Path to Philosophy"](https://www.red
 
 For solutions to other challenges, go [here](https://github.com/jimmynguyen/daily-programmer).
 
+## Requirements
+
+* [Node.js](https://nodejs.org/en/)
+* [npm (Node Package Manager)](https://www.npmjs.com/)
+
+## Setting up the application
+
+1. Clone the repository
+
+```shell
+git clone https://github.com/jimmynguyen/path-to-philosophy.git
+```
+
+2. Install npm packages
+
+```shell
+npm install
+```
+
+## Running the program
+
+1. Call the following command
+
+```shell
+node path_to_philosophy.js
+```
+
+or
+
+```shell
+npm start
+```
+
+2. Enter the *title* when you are prompted
+
+![running_the_program.png](https://raw.githubusercontent.com/jimmynguyen/path-to-philosophy/master/running_the_program.png)
+
+## Debugging the program
+
+1. Open the file `path_to_philosophy.js`
+
+2. Change the value of the `IS_DEBUG` variable at the top of the file to `true`
+
+```javascript
+var IS_DEBUG = false;
+```
+
+3. Change the value of the `TITLE` variable at the top of the file to a specific subject so that it is easier to debug. Otherwise, you will have to keep typing it when you are prompted.
+
+```javascript
+var TITLE = null;
+```
+
+4. Call the following command
+
+```shell
+node path_to_philosophy.js
+```
+
+or
+
+```shell
+npm start
+```
+
 ## Challenge
 
 ### Description

@@ -1,4 +1,5 @@
 var IS_DEBUG = false;
+var TITLE    = null;
 
 var cheerio     = require('cheerio');
 var file_system = require('fs');
@@ -18,8 +19,8 @@ console.log = function(message) {
 	}
 }
 
-if (IS_DEBUG) {
-	get_web_page('Molecule');
+if (IS_DEBUG && TITLE !== null) {
+	get_web_page(TITLE);
 } else {
 	prompt_user();
 }
