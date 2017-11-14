@@ -1,4 +1,4 @@
-# path-to-philosophy
+# path-to-philosophy-cli
 
 Implementation of the [Hard Challenge #320 "Path to Philosophy"](https://www.reddit.com/r/dailyprogrammer/comments/6j7k3x/20170624_challenge_320_hard_path_to_philosophy/) from [/r/dailyprogrammer/](https://www.reddit.com/r/dailyprogrammer/)
 
@@ -14,7 +14,7 @@ For solutions to other challenges, go [here](https://github.com/jimmynguyen/dail
 1. Clone the repository
 
 ```shell
-git clone https://github.com/jimmynguyen/path-to-philosophy.git
+git clone https://github.com/jimmynguyen/path-to-philosophy-cli.git
 ```
 
 2. Install npm packages
@@ -39,7 +39,7 @@ npm start
 
 2. Enter the *title* when you are prompted
 
-![running_the_program.png](https://raw.githubusercontent.com/jimmynguyen/path-to-philosophy/master/running_the_program.png)
+![running_the_program.png](https://raw.githubusercontent.com/jimmynguyen/path-to-philosophy-cli/master/running_the_program.png)
 
 ## Debugging the program
 
